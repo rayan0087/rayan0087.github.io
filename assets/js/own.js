@@ -6,13 +6,6 @@ fetch('menu.html')
     nav.innerHTML=data
 })
 
-// head
-const head = document.querySelector('.head-div')
-fetch('head.html')
-.then(res=>res.text())
-.then(data=>{
-    head.innerHTML=data
-})
 
 // footer
 const footer = document.querySelector('.footer-div')
